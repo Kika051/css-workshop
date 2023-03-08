@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0px;
+ }
+
+ h1{
+color: #FFFFFf;
+}
+
+nav{
+    background-color: #f76c6c;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+li{
+    display: inline;
+}
+header{
+    background-image: url(https://loremflickr.com/1200/300);
+    min-height: 250px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFf;
+}
+section{
+    max-width: 65ch;
+    margin: auto;
+    padding: 1rem;
+}
+.featured{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.featured h2{
+    grid-column: 1 / -1;
+}
+article{
+    box-shadow: 0 5px 5px red;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+footer{
+    background-color: #f76c6c;
+    padding: 1rem;
+}
+body{
+    min-height: 100vh;
+    
+}
